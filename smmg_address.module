@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains smmg_address.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function smmg_address_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the smmg_address module.
+    case 'help.page.smmg_address':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Addresses Module for Small Messages') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function smmg_address_theme() {
+  return [
+    'smmg_address' => [
+      'render element' => 'children',
+    ],
+  ];
+}

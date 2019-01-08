@@ -1,0 +1,15 @@
+name: 'Small Messages - Address'
+type: module
+description: 'Addresses Module for Small Messages'
+core: 8.x
+package: 'Small Messages'
+
+dependencies:
+  - drupal:node
+  - small_messages
+  - field_group
+
+project: smmg_address
+version: 8.x-1.0.0
+'interface translation project': smmg_address
+'interface translation server pattern': modules/custom/%project/translations/%project-%version.%language.po

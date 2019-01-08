@@ -1,0 +1,14 @@
+{
+  "name": "drupal/smmg_address",
+  "type": "drupal-module",
+  "description": "Addresses Module for Small Messages",
+  "keywords": ["Drupal"],
+  "license": "GPL-3.0+",
+  "homepage": "https://github.com/oliversteiner/smmg_address",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/oliversteiner/smmg_address/issues",
+    "source": "https://github.com/oliversteiner/smmg_address"
+  },
+  "require": { }
+}
