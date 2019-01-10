@@ -1,0 +1,9 @@
+
+smmg_address.new_address_form:
+  path: '/smmg/new-address'
+  defaults:
+    _form: '\Drupal\smmg_address\Form\NewAddressForm'
+    _title: 'New Address'
+  requirements:
+    _access: 'TRUE'
+  

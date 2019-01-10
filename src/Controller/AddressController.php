@@ -11,16 +11,21 @@ use Drupal\small_messages\Utility\Helper;
 /**
  * Class AdressController.
  */
-class AdressController extends ControllerBase
+class AddressController extends ControllerBase
 {
 
-
+    /**
+     * {@inheritdoc}
+     */
+    protected static function getModuleName() {
+        return 'smmg_address';
+    }
 
     /**
      * @param $data
      * @return array
      */
-    public static function newSubscriber($data)
+    public static function newAddress($data)
     {
         // Token
 
